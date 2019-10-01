@@ -7,11 +7,13 @@ public class Ball : MonoBehaviour
     private AudioSource AudioSource;
     private Rigidbody Rigidbody;
     public float BallSpeed;
+    private TrailRenderer TrailRenderer;
     // Start is called before the first frame update
     void Start()
     {
         AudioSource = GetComponent<AudioSource>();
         Rigidbody = GetComponent<Rigidbody>();
+        TrailRenderer = GetComponent<TrailRenderer>();
     }
 
     // Update is called once per frame
@@ -25,6 +27,7 @@ public class Ball : MonoBehaviour
         {
             AudioSource.Play();
             //Rigidbody.velocity = new Vector3(0, collision.gameObject.GetComponent<Rigidbody>().angularVelocity.y, collision.gameObject.GetComponent<Rigidbody>().angularVelocity.z * BallSpeed);
+            TrailRenderer.enabled = true;
         }
     }
 }

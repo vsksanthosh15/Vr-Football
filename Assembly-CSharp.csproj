@@ -364,6 +364,7 @@
     <Compile Include="Assets\Script\Ball.cs" />
     <Compile Include="Assets\Script\BallSpawner.cs" />
     <Compile Include="Assets\Script\GameManager.cs" />
+    <Compile Include="Assets\Script\HeightAdjuster.cs" />
     <Compile Include="Assets\Script\ScrollTexture.cs" />
     <Compile Include="Assets\Script\Target.cs" />
     <Compile Include="Assets\Script\TargetSpawner.cs" />
