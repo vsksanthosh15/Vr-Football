@@ -3,6 +3,8 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - Ball
     - BallSpawner
+    - Bat
+    - BatCubeFollowers
     - CFX_AutoDestructShuriken
     - GameManager
     - HeightAdjuster
@@ -15,7 +17,6 @@ ScriptsOnlyBuild:
     - OVRManager
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
-    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -26,7 +27,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
   sceneClasses:
-    Assets/Scenes/Game.unity:
+    Assets/Scenes/Game with physics.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -84,33 +85,37 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10242}
     - Class: 114
-      Script: {instanceID: 10968}
+      Script: {instanceID: 10440}
     - Class: 114
-      Script: {instanceID: 11122}
+      Script: {instanceID: 10970}
     - Class: 114
-      Script: {instanceID: 11278}
+      Script: {instanceID: 11124}
     - Class: 114
-      Script: {instanceID: 11504}
+      Script: {instanceID: 11280}
     - Class: 114
-      Script: {instanceID: 11758}
+      Script: {instanceID: 11402}
     - Class: 114
-      Script: {instanceID: 12312}
+      Script: {instanceID: 11508}
     - Class: 114
-      Script: {instanceID: 12382}
+      Script: {instanceID: 11762}
     - Class: 114
-      Script: {instanceID: 12640}
+      Script: {instanceID: 12316}
     - Class: 114
-      Script: {instanceID: 13026}
+      Script: {instanceID: 12386}
     - Class: 114
-      Script: {instanceID: 13186}
+      Script: {instanceID: 12644}
     - Class: 114
-      Script: {instanceID: 13306}
+      Script: {instanceID: 13030}
     - Class: 114
-      Script: {instanceID: 13330}
+      Script: {instanceID: 13190}
     - Class: 114
-      Script: {instanceID: 13340}
+      Script: {instanceID: 13310}
     - Class: 114
-      Script: {instanceID: 13394}
+      Script: {instanceID: 13334}
+    - Class: 114
+      Script: {instanceID: 13344}
+    - Class: 114
+      Script: {instanceID: 13398}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -414,6 +419,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.VR.dll
     namespaceName: 
     className: OVRAudioSourceTest
+  - hash:
+      serializedVersion: 2
+      Hash: d25650bb5b53f4b6e24d18563f76d9ee
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Bat
   - hash:
       serializedVersion: 2
       Hash: 0dbc3be398b4869a5c8d0d8481ee402c
@@ -780,6 +791,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CFX_Demo_RotateCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 7451d6d48a8b26cf18196480f65bd353
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BatCubeFollowers
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -1718,5 +1735,5 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   platform: 5
   scenePathNames:
-  - Assets/Scenes/Game.unity
-  playerPath: E:/UNityProject/Vr Football/Game Built/Vr Football.exe
+  - Assets/Scenes/Game with physics.unity
+  playerPath: E:/UNityProject/Vr Football/VR Header with Phy game buit/Vr Football.exe

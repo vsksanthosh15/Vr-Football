@@ -363,6 +363,8 @@
     <Compile Include="Assets\Oculus\VoiceMod\Scripts\OVRVoiceModContext.cs" />
     <Compile Include="Assets\Script\Ball.cs" />
     <Compile Include="Assets\Script\BallSpawner.cs" />
+    <Compile Include="Assets\Script\Bat.cs" />
+    <Compile Include="Assets\Script\BatCubeFollowers.cs" />
     <Compile Include="Assets\Script\GameManager.cs" />
     <Compile Include="Assets\Script\HeightAdjuster.cs" />
     <Compile Include="Assets\Script\ScrollTexture.cs" />
